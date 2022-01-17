@@ -3,7 +3,31 @@ module.exports = templateData => {
     // destructure data for headings
     const {title, description, confirmTOC, installation, usage, license, contributing, tests, questionsGitHub, questionsEmail} = templateData;
     
+    const licenseFunction = licenseInput => {
+        if (licenseInput === 'MIT license' || licenseInput === 'GNU GPLv3') {
+            return `This application is covered by the ${license} license.`
+        } else {
+            return `This application is not covered by a license.`
+        }
+    }
+
+    const licenseSection = licenseFunction(license);
+
+    const generateLicenseBadge = licenseInput => {
+        if (licenseInput === 'MIT license') {
+            return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+        } else if (licenseInput === 'GNU GPLv3') {
+            return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+        } else {
+            return ""
+        }
+    };
+
+    const licenseBadge = generateLicenseBadge(license);
+
     return `
+${licenseBadge}
+
 # ${title}
     
 ## Description
@@ -24,7 +48,7 @@ ${installation}
 ${usage}
 
 ## License
-This application is covered under the ${license} license.
+${licenseSection}
 
 ## Contributing
 ${contributing}
@@ -33,7 +57,7 @@ ${contributing}
 ${tests}
 
 ## Questions
-[GitHub Profile](https://github.com/${questionsGitHub})
+[GitHub Profile](https://github.com/${questionsGitHub})<br>
 For additional questions, [email me.](mailto:${questionsEmail})
 `
 }   

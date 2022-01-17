@@ -1,8 +1,10 @@
 
-# test
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+# namey
     
 ## Description
-test describe
+projecto
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,20 +15,20 @@ test describe
 * [Questions](#questions)
 
 ## Installation
-test instro
+no
 
 ## Usage
-describe test
+no
 
 ## License
-This application is covered under the this one license.
+This application is covered by the GNU GPLv3 license.
 
 ## Contributing
-no test
+guide
 
 ## Tests
-test test
+testy
 
 ## Questions
-[GitHub Profile](https://github.com/johnproodian)
-For additional questions, [email me.](mailto:jproodian721@gmail.com)
+[GitHub Profile](https://github.com/johnp)<br>
+For additional questions, [email me.](mailto:jjoo@ggg)

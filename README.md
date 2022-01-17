@@ -16,4 +16,4 @@ The purpose of this challenge is to create a command-line application that dynam
 ![generated readme - 2](/images/readme-generator-generated-readme-2.png)
 
 ## Video Walkthrough
-https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V
+https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V (sorry for all the scratching!)

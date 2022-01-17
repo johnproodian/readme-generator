@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateDoc = require('./utils/page-template');
+const generateDoc = require('./utils/doc-template');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input

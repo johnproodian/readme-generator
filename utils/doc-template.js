@@ -5,7 +5,7 @@ module.exports = templateData => {
     
     const licenseFunction = licenseInput => {
         if (licenseInput === 'MIT license') {
-            return `This application is covered by the [${license} license](https://choosealicense.com/licenses/mit/)`
+            return `This application is covered by the [${license}](https://choosealicense.com/licenses/mit/)`
         } else if (licenseInput === 'GNU GPLv3') {
             return `This application is covered by the [${license} license](https://choosealicense.com/licenses/gpl-3.0/)`
         } else {

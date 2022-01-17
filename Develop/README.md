@@ -1,10 +1,10 @@
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# namey
+# prrr
     
 ## Description
-projecto
+alskdjf;alskdjflk;sdaf
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,20 +15,20 @@ projecto
 * [Questions](#questions)
 
 ## Installation
-no
+l;askdjf;aslkdfj
 
 ## Usage
-no
+;laksdjfsl;akdfj
 
 ## License
-This application is covered by the GNU GPLv3 license.
+This application is covered by the [MIT license license](https://choosealicense.com/licenses/mit/)
 
 ## Contributing
-guide
+noooooo
 
 ## Tests
 testy
 
 ## Questions
-[GitHub Profile](https://github.com/johnp)<br>
-For additional questions, [email me.](mailto:jjoo@ggg)
+[GitHub Profile](https://github.com/john)<br>
+For additional questions, [email me.](mailto:johng)

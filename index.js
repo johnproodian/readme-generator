@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const generateDoc = require('./utils/page-template');
+const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [];
@@ -28,7 +30,7 @@ inquirer
         // actually--prompt whether user would like a TOC first?
         {
             type: 'confirm',
-            name: 'confirm-toc',
+            name: 'confirmTOC',
             message: 'Would you like a table of contents?'
             // generate toc if so...
         },
@@ -39,7 +41,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'how-to',
+            name: 'usage',
             message: 'Describe how to use the application:'
         },
         {
@@ -57,10 +59,25 @@ inquirer
             type: 'input',
             name: 'tests',
             message: 'Enter test instructions:'
+        },
+        {
+            type: 'input',
+            name: 'questionsGitHub',
+            message: 'What is your GitHub username?'
+        },
+        {
+            type: 'input',
+            name: 'questionsEmail',
+            message: 'What is your email?'
         }
 
     ])
-    .then((answer) => console.log(answer));
+    .then((answers) => {
+        const docMarkdown = generateDoc(answers);
+        fs.writeFile('./Develop/README.md', docMarkdown, err => {
+            if (err) throw new Error(err);
+        })
+    });
 
     // these: Installation, Usage, License, Contributing, Tests, and Questions
 

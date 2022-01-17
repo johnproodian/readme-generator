@@ -1,7 +1,7 @@
 module.exports = templateData => {
 
     // destructure data for headings
-    const {title, description, confirmTOC, installation, usage, license, contributing, tests, questionsGitHub, questionsEmail} = templateData;
+    const {title, description, installation, usage, license, contributing, tests, questionsGitHub, questionsEmail} = templateData;
     
     const licenseFunction = licenseInput => {
         if (licenseInput === 'MIT license') {
@@ -63,23 +63,3 @@ ${tests}
 For additional questions, [email me.](mailto:${questionsEmail})
 `
 }   
-
-// Project Title
-
-// Description
-
-// TOC - links to other parts
-
-// Installation
-
-// Usage
-
-// License
-
-// Contributing
-
-// Tests
-
-// Questions - link to github profile
-
-// 

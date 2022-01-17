@@ -4,12 +4,19 @@ module.exports = templateData => {
     const {title, description, confirmTOC, installation, usage, license, contributing, tests, questionsGitHub, questionsEmail} = templateData;
     
     return `
+
     # ${title}
     
     ## Description
     ${description}
     
     ## Table of Contents
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
     
     ## Installation
     ${installation}
@@ -18,7 +25,7 @@ module.exports = templateData => {
     ${usage}
     
     ## License
-    ${license}
+    This application is covered under the ${license} license.
     
     ## Contributing
     ${contributing}
@@ -28,7 +35,7 @@ module.exports = templateData => {
     
     ## Questions
     [GitHub Profile](https://github.com/${questionsGitHub})
-    [Email](mailto:${questionsEmail})
+    For additional questions, [email me.](mailto:${questionsEmail})
     `
 }   
 

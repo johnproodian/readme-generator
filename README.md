@@ -13,3 +13,4 @@ The purpose of this challenge is to create a command-line application that dynam
 ## Screenshots
 
 ## Video Walkthrough
+https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V

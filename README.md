@@ -10,3 +10,6 @@ The purpose of this challenge is to create a command-line application that dynam
 * JavaScript
 * Node.js
 
+## Screenshots
+
+## Video Walkthrough

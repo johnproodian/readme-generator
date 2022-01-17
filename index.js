@@ -55,7 +55,7 @@ inquirer
     ])
     .then((answers) => {
         const docMarkdown = generateDoc(answers);
-        fs.writeFile('./Develop/README.md', docMarkdown, err => {
+        fs.writeFile('./Develop/generated-README.md', docMarkdown, err => {
             if (err) throw new Error(err);
         })
     });

@@ -1,6 +1,11 @@
 # Professional README Generator
 
-A command-line application that dynamically generates a professional README.md file from a user's input.
+A command-line application that dynamically generates a professional README.md file from a user's input
+
+## Instructions
+1. Clone the repo to your machine
+2. Run ```npm install``` from the root directory
+3. 
 
 ## Built With
 * JavaScript

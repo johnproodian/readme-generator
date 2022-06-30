@@ -6,16 +6,19 @@ A command-line application that dynamically generates a professional README.md f
 1. Be sure that Node.js is installed on your machine.
 2. Clone the repo from GitHub.
 2. Run ```npm install``` from the root directory.
-3. Start the application by running ```node index``` from the command line 
+3. Start the application by running ```node index``` from the command line.
 
 ## Usage
-See the Screencastify walkthrough [here](https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V) (sorry for all the scratching...).
+1. Start the application by running ```node index``` from the command line.
+2. Follow the command line prompts.
+
+### Walkthrough
+See the Screencastify walkthrough [here](https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V) (sorry for all the scratching...). Upon completion of the prompts, the app should generate a README file along the lines of [this one](/generated-README.md).
 
 ### Screenshot of prompts and answers in the terminal:
 
 ![readme generator prompts and answers in the terminal](/images/readme-generator-terminal.png)
 
-See an example of a generated README file [here](/generated-README.md)
 
 ## Built With
 * JavaScript

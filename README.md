@@ -2,10 +2,19 @@
 
 A command-line application that dynamically generates a professional README.md file from a user's input
 
-## Instructions
+## Installation
 1. Clone the repo to your machine
 2. Run ```npm install``` from the root directory
-3. 
+3. Start the application by running ```node index``` from the command line 
+
+## Usage
+See the Screencastify walkthrough [here](https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V) (sorry for all the scratching...).
+
+### Screenshot of prompts and answers in the terminal:
+
+![readme generator prompts and answers in the terminal](/images/readme-generator-terminal.png)
+
+See an example of a generated README file [here](/generated-README.md)
 
 ## Built With
 * JavaScript

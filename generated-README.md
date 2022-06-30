@@ -1,10 +1,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Readme Generator
+# test project
     
 ## Description
-A command line application that generates a readme.md file from user answers to prompts
+I'm testing something out
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,20 +15,20 @@ A command line application that generates a readme.md file from user answers to 
 * [Questions](#questions)
 
 ## Installation
-add the file to your computer
+Download and install it!
 
 ## Usage
-type 'node index' into the command line in the app's directory and answer the prompts
+Open it up and use it--but it's just a test
 
 ## License
 This application is covered by the [MIT license](https://choosealicense.com/licenses/mit/)
 
 ## Contributing
-Don't contribute.
+Don't contribute--it's a test!
 
 ## Tests
-No test instructions
+Use jest.test--but don't really
 
 ## Questions
 [GitHub Profile](https://github.com/johnproodian)<br>
-For additional questions, [email me.](mailto:jproodian721@gmail.com)
+For additional questions, [email me.](mailto:test@test.com)

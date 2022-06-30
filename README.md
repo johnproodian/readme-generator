@@ -1,10 +1,6 @@
 # Professional README Generator
 
-[How to create a Professional README](./readme-guide.md)
-
-## Purpose
-
-The purpose of this challenge is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+A command-line application that dynamically generates a professional README.md file from a user's input.
 
 ## Built With
 * JavaScript
@@ -17,3 +13,10 @@ The purpose of this challenge is to create a command-line application that dynam
 
 ## Video Walkthrough
 https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V (sorry for all the scratching!)
+
+## (Recently Learned) Skills I Used
+* modularizing code into multiple files
+* ES6+ concepts, such as ```let```, ```const```, and arrow functions
+* using NPM to initialize a project, and to install and import Node.js modules
+* building an interactive command-line application that processes user input using a third-party module
+* using string literals to dynamically generate markdown from the command line

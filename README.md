@@ -3,8 +3,9 @@
 A command-line application that dynamically generates a professional README.md file from a user's input
 
 ## Installation
-1. Clone the repo to your machine
-2. Run ```npm install``` from the root directory
+1. Be sure that Node.js is installed on your machine.
+2. Clone the repo from GitHub.
+2. Run ```npm install``` from the root directory.
 3. Start the application by running ```node index``` from the command line 
 
 ## Usage

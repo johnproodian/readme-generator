@@ -20,14 +20,6 @@ See an example of a generated README file [here](/generated-README.md)
 * JavaScript
 * Node.js
 
-## Screenshots
-![readme generator prompts and answers in the terminal](/images/readme-generator-terminal.png)
-![generated readme - 1](/images/readme-generator-generated-readme-1.png)
-![generated readme - 2](/images/readme-generator-generated-readme-2.png)
-
-## Video Walkthrough
-https://watch.screencastify.com/v/LhYfNqcEK5SL45q8Zm9V (sorry for all the scratching!)
-
 ## (Recently Learned) Skills I Used
 * modularizing code into multiple files
 * ES6+ concepts, such as ```let```, ```const```, and arrow functions

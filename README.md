@@ -23,7 +23,7 @@ See the Screencastify walkthrough [here](https://watch.screencastify.com/v/LhYfN
 
 ## (Recently Learned) Skills I Used
 * modularizing code into multiple files
-* ES6+ concepts, such as ```let```, ```const```, and arrow functions
-* using NPM to initialize a project, and to install and import Node.js modules
+* ES6+ concepts (especially the usage of```let```, ```const```, and arrow functions)
+* using npm to initialize a project, and to install and import Node.js modules
 * building an interactive command-line application that processes user input using a third-party module
 * using string literals to dynamically generate markdown from the command line
